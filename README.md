@@ -71,7 +71,7 @@ def hamming_distance(s1, s2):
 4. Το πρόγραμμα θα διαβάζει το λεξικό ρυθμών που βρίσκεται στο αρχείο `musical_rythms.json`, το οποίο θα είναι αποθηκευμένο στον ίδιο κατάλογο με τον κατάλογο του προγράμματος. 
 5. Το πρόγραμμα θα μπορεί να καλείται ως εξής:
 ```
-musical_rythms.py [-s SLOTS] [-p PULSES] [-r RECOGNIZE] [-l LIST_RYTHMS]```
+musical_rythms.py [-s SLOTS] [-p PULSES] [-r RECOGNIZE] [-l LIST_RYTHMS]
 ```
 
 ### Δημιουργία Ρυθμού
@@ -102,5 +102,20 @@ It is a reverse Euclidean string.
 ```
 
 Όπως βλέπετε, θα πρέπει να εμφανίζεται πρώτα ο ρυθμός στη μορφή E(k, n), στη συνέχεια ως δυαδική συμβολειρά μέσα σε αγκύλες, στη συνέχεια ως διάνυσμα διαστημάτων μέσα παρενθέσεις, και στη συνέχεια θα ακολουθεί η περιγραφή από το λεξικό των ρυθμών, αν βρεθεί εκεί. Από κάτω θα εμφανίζεται μήνυμα αν είναι Ευκλείδια ή Αντίστροφη Ευκλείδια συμβολοσειρά.
+
+### Αναγνώριση Ρυθμού
+
+Αν δίνεται η παράμετρος `-r RECOGNIZE` τότε το `RECOGNIZE` θα είναι ένας ρυθμός σε δυαδική μορφή και το πρόγραμμα θα πρέπει να τον αναγνωρίσει, αν είναι Ευκλείδιος, και να τυπώσει ό,τι πληροφορίες έχει γι΄ αυτόν. Αν δεν είναι, θα τυπώνει κατάλληλο μήνυμα.
+
+Παραδείγματα εκτέλεσης:
+```
+python musical_rythms.py -r 101101011010
+E(7, 12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
+```
+```
+python musical_rythms.py -r 10010010010
+E(4, 11) = [10010010010] = (3332) It is the metric pattern used by Frank Zappa in his piece titled Outside Now.
+It is a reverse Euclidean string.
+```
 
 
