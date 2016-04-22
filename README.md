@@ -161,4 +161,12 @@ It is a reverse Euclidean string.
 
 *Δεν επιτρέπεται να χρησιμοποιήσετε τον αλγόριθμο του Björklund για την επίλυση της εργασίας. Θα πρέπει να αναπτύξετε τη λύση βασισμένοι σε λίστες, όπως περιγράφεται στην εκφώνηση*.
 
+## Επαλήθευση Λύσεων
+
+Για να μπορέσετε να επαληθεύσετε τα αποτελέσματά σας, μπορείτε να δείτε τους Ευκλείδιους ρυθμούς που περιγράφονται στις πρώτες δύο παραπομπές που εμφανίζονται στο τέλος του παρόντος.
+
 Καλή Επιτυχία!
+
+# Περισσότερες Πληροφορίες
+
+ * G. T. Toussaint, The Euclidean algorithm generates traditional musical rhythms, Proceedings of BRIDGES: Mathematical Connections in Art, Music, and Science, Banff, Alberta, Canada, July 31 to August 3, 2005, pp. 47–56 [(http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf)](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) 
