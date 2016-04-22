@@ -76,7 +76,7 @@ musical_rythms.py [-s SLOTS] [-p PULSES] [-r RECOGNIZE] [-l LIST_RYTHMS]```
 
 ### Δημιουργία Ρυθμού
 
-Αν δίνονται οι παράμετροι `-s SLOTS` και `-p PULSES`, τότε τα `SLOTS` και `PULSES` θα είναι ακέραιοι. Το πρόγραμμα θα υπολογίζει το ρυθμό που αντιστοιχεί στις παραμέτρους αυτούς, όπου `PULSES` είναι ο αριθμός των χτυπημάτων και `SLOTS` είναι το μήκος του ρυθμού. Θα τον αναζητά στο λεξικό των γνωστών ρυθμών. Αν τον βρει εκεί, θα εκτυπώνει τα στοιχεία που βρίσκει για τον ρυθμό. Αν όχι, θα τυπώνει απλώς τον ρυθμό. Στην επόμενη γραμμή, αν ο ρυθμός αντιστοιχεί σε Ευκλείδια Συμβολοσειρά ή σε αντίστροφη Ευκλείδια συμβολοσειρά θα εκτυπώνει κατάλληλο μήνυμα. Προσοχή, *η μορφή εξόδου θα πρέπει να είναι ακριβώς αυτή που περιγράφεται στη συνέχεια*.
+Αν δίνονται οι παράμετροι `-s SLOTS` και `-p PULSES`, τότε τα `SLOTS` και `PULSES` θα είναι ακέραιοι. Το πρόγραμμα θα υπολογίζει το ρυθμό που αντιστοιχεί στις παραμέτρους αυτούς, όπου `PULSES` είναι ο αριθμός των χτυπημάτων και `SLOTS` είναι το μήκος του ρυθμού. Θα τον αναζητά στο λεξικό των γνωστών ρυθμών. Αν τον βρει εκεί, θα εκτυπώνει τα στοιχεία που βρίσκει για τον ρυθμό. Αν όχι, θα τυπώνει απλώς τον ρυθμό. Στην επόμενη γραμμή, αν ο ρυθμός αντιστοιχεί σε Ευκλείδια Συμβολοσειρά ή σε Αντίστροφη Ευκλείδια Συμβολοσειρά θα εκτυπώνει κατάλληλο μήνυμα. Προσοχή, *η μορφή εξόδου θα πρέπει να είναι ακριβώς αυτή που περιγράφεται στη συνέχεια*.
 
 Παραδείγματα εκτέλεσης:
 ```
@@ -84,8 +84,23 @@ python musical_rythms.py -s 12 -p 6
 E(6, 12) = [101010101010] = (222222)
 ```
 
-και:
 ```
 python3 musical_rythms.py -s 12 -p 7
 E(7, 12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
 ```
+
+```
+python3 musical_rythms.py -s 16 -p 5
+E(5, 16) = [1001001001001000] = (33334) It is the Bossa-Nova rhythm necklace of Brazil. The actual Bossa-Nova rhythm usually starts on the third onset as follows: [1001001000100100]. However, other starting places are also documented in world music practices, such as [1001001001000100].
+It is a Euclidean string.
+```
+
+```
+python3 musical_rythms.py -s 9 -p 5
+E(5, 9) = [101010101] = (22221) It is a popular Arabic rhythm called Agsag-Samai. Started on the second onset, it is a drum pattern used by the Venda in South Africa, as well as a Rumanian folk-dance rhythm. It is also the rhythmic pattern of the Sigaktistos rhythm of Greece, and the Samai aktsak rhythm of Turkey. Started on the third onset, it is the rhythmic pattern of the Nawahiid rhythm of Turkey.
+It is a reverse Euclidean string.
+```
+
+Όπως βλέπετε, θα πρέπει να εμφανίζεται πρώτα ο ρυθμός στη μορφή E(k, n), στη συνέχεια ως δυαδική συμβολειρά μέσα σε αγκύλες, στη συνέχεια ως διάνυσμα διαστημάτων μέσα παρενθέσεις, και στη συνέχεια θα ακολουθεί η περιγραφή από το λεξικό των ρυθμών, αν βρεθεί εκεί. Από κάτω θα εμφανίζεται μήνυμα αν είναι Ευκλείδια ή Αντίστροφη Ευκλείδια συμβολοσειρά.
+
+
