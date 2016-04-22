@@ -173,4 +173,4 @@ It is a reverse Euclidean string.
 
 * Erik D. Demaine, Francisco Gomez-Martin, Henk Meijer, David Rappaport, Perouz Taslakian, Godfried T. Toussaint, Terry Winograd, and David R. Wood, "The Distance Geometry of Music", Computational Geometry: Theory and Applications, volume 42, number 5, July 2009, pp. 429–454. Special issue of selected papers from the 17th Canadian Conference on Computational Geometry, 2005 ([http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf)](http://erikdemaine.org/papers/DeepRhythms_CGTA/paper.pdf)).
 
-* E. Bjorklund, "The Theory of Rep-Rate Pattern Generation in the SNS Timing System", SNS-NOTE-CNTRL-99, 1999. ([https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf](https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf)).
+* E. Bjorklund, "The Theory of Rep-Rate Pattern Generation in the SNS Timing System", SNS-NOTE-CNTRL-99, 1999 ([https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf](https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf)).
