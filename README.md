@@ -81,23 +81,23 @@ musical_rythms.py [-s SLOTS] [-p PULSES] [-r RECOGNIZE] [-l LIST_RYTHMS]
 Παραδείγματα εκτέλεσης:
 ```
 python musical_rythms.py -s 12 -p 6
-E(6, 12) = [101010101010] = (222222)
+E(6,12) = [101010101010] = (222222)
 ```
 
 ```
 python3 musical_rythms.py -s 12 -p 7
-E(7, 12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
+E(7,12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
 ```
 
 ```
 python3 musical_rythms.py -s 16 -p 5
-E(5, 16) = [1001001001001000] = (33334) It is the Bossa-Nova rhythm necklace of Brazil. The actual Bossa-Nova rhythm usually starts on the third onset as follows: [1001001000100100]. However, other starting places are also documented in world music practices, such as [1001001001000100].
+E(5,16) = [1001001001001000] = (33334) It is the Bossa-Nova rhythm necklace of Brazil. The actual Bossa-Nova rhythm usually starts on the third onset as follows: [1001001000100100]. However, other starting places are also documented in world music practices, such as [1001001001000100].
 It is a Euclidean string.
 ```
 
 ```
 python3 musical_rythms.py -s 9 -p 5
-E(5, 9) = [101010101] = (22221) It is a popular Arabic rhythm called Agsag-Samai. Started on the second onset, it is a drum pattern used by the Venda in South Africa, as well as a Rumanian folk-dance rhythm. It is also the rhythmic pattern of the Sigaktistos rhythm of Greece, and the Samai aktsak rhythm of Turkey. Started on the third onset, it is the rhythmic pattern of the Nawahiid rhythm of Turkey.
+E(5,9) = [101010101] = (22221) It is a popular Arabic rhythm called Agsag-Samai. Started on the second onset, it is a drum pattern used by the Venda in South Africa, as well as a Rumanian folk-dance rhythm. It is also the rhythmic pattern of the Sigaktistos rhythm of Greece, and the Samai aktsak rhythm of Turkey. Started on the third onset, it is the rhythmic pattern of the Nawahiid rhythm of Turkey.
 It is a reverse Euclidean string.
 ```
 
@@ -110,12 +110,12 @@ It is a reverse Euclidean string.
 Παραδείγματα εκτέλεσης:
 ```
 python musical_rythms.py -r 101101011010
-E(7, 12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
+E(7,12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
 ```
 
 ```
 python musical_rythms.py -r 10010010010
-E(4, 11) = [10010010010] = (3332) It is the metric pattern used by Frank Zappa in his piece titled Outside Now.
+E(4,11) = [10010010010] = (3332) It is the metric pattern used by Frank Zappa in his piece titled Outside Now.
 It is a reverse Euclidean string.
 ```
 
@@ -155,3 +155,5 @@ Distance = 4
 E(8,9) = [101111111] = (21111111)
 It is a reverse Euclidean string.
 ```
+
+Καλή Επιτυχία!
