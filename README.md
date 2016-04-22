@@ -112,10 +112,15 @@ It is a reverse Euclidean string.
 python musical_rythms.py -r 101101011010
 E(7, 12) = [101101011010] = (2122122) It is a common West African bell pattern. For example, it is used in the Mpre rhythm of the Ashanti people of Ghana. Started on the seventh (last) onset, it is a Yoruba bell pattern of Nigeria, a Babenzele pattern of Central Africa, and a Mende pattern of Sierra Leone.
 ```
+
 ```
 python musical_rythms.py -r 10010010010
 E(4, 11) = [10010010010] = (3332) It is the metric pattern used by Frank Zappa in his piece titled Outside Now.
 It is a reverse Euclidean string.
 ```
 
+```
+python musical_rythms.py -r 10010010011
+Not a Euclidean rythm.
+```
 
