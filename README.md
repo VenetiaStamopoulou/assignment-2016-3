@@ -124,3 +124,34 @@ python musical_rythms.py -r 10010010011
 Not a Euclidean rythm.
 ```
 
+### Εμφάνιση Παρόμοιων Ρυθμών
+
+Αν δίνεται η παράμετρος `-l LIST_RYTHMS` (`-l` είναι το αγγλικό El), τότε η παράμετρος `LIST_RYTHMS` θα είναι ένας ρυθμός σε δυαδική μορφή και το πρόγραμμα θα εμφανίζει όλους τους ρυθμούς με το μήκος, ταξινομημένους κατά αύξουσα απόσταση Hamming και φθίνοντα αριθμό παλμών. 
+
+Παραδείγματα εκτέλεσης:
+
+```
+python musical_rythms.py -l 101010100
+python3 musical_rythms.py -l 101010100
+Distance = 0
+E(4,9) = [101010100] = (2223) It is theA ksak rhythm of Turkey. It is also the metric pattern used by Dave Brubeck in his piece Rondo a la Turk.
+It is a Euclidean string.
+Distance = 1
+E(5,9) = [101010101] = (22221) It is a popular Arabic rhythm called Agsag-Samai. Started on the second onset, it is a drum pattern used by the Venda in South Africa, as well as a Rumanian folk-dance rhythm. It is also the rhythmic pattern of the Sigaktistos rhythm of Greece, and the Samai aktsak rhythm of Turkey. Started on the third onset, it is the rhythmic pattern of the Nawahiid rhythm of Turkey.
+It is a reverse Euclidean string.
+Distance = 2
+E(2,9) = [100010000] = (45)
+It is a Euclidean string.
+Distance = 3
+E(1,9) = [100000000] = (9)
+Distance = 3
+E(3,9) = [100100100] = (333)
+Distance = 3
+E(7,9) = [101110111] = (2112111) It is the Bazaragana rhythmic pattern of Greece.
+It is a reverse Euclidean string.
+Distance = 4
+E(6,9) = [101101101] = (212121)
+Distance = 4
+E(8,9) = [101111111] = (21111111)
+It is a reverse Euclidean string.
+```
