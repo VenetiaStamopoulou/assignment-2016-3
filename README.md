@@ -162,7 +162,7 @@ It is a reverse Euclidean string.
 Άλλο παράδειγμα:
 
 ```
-python3 musical_rythms.py -l 1001001001000
+python musical_rythms.py -l 1001001001000
 Distance = 0
 E(4,13) = [1001001001000] = (3334)
 It is a Euclidean string.
