@@ -159,6 +159,46 @@ E(8,9) = [101111111] = (21111111)
 It is a reverse Euclidean string.
 ```
 
+Άλλο παράδειγμα:
+
+```
+python3 musical_rythms.py -l 1001001001000
+Distance = 0
+E(4,13) = [1001001001000] = (3334)
+It is a Euclidean string.
+Distance = 2
+E(2,13) = [1000001000000] = (67)
+It is a Euclidean string.
+Distance = 3
+E(1,13) = [1000000000000] = (13)
+Distance = 5
+E(3,13) = [1000100010000] = (445)
+It is a Euclidean string.
+Distance = 5
+E(5,13) = [1001010010100] = (32323) It is a rhythm from the FYROM which is also played by starting it on the fourth onset as follows: [1010010010100].
+Distance = 5
+E(9,13) = [1011011011011] = (212121211)
+It is a reverse Euclidean string.
+Distance = 6
+E(6,13) = [1010101010100] = (222223) It is the rhythm of the dance Mama Cone pita from the FYROM. Started on the third onset, it is the rhythm of the dance Postupano Oro from the FYROM, as well as the Krivo Plovdivsko Horo of Bulgaria.
+It is a Euclidean string.
+Distance = 7
+E(7,13) = [1010101010101] = (2222221)
+It is a reverse Euclidean string.
+Distance = 7
+E(11,13) = [1011111011111] = (21111211111)
+It is a reverse Euclidean string.
+Distance = 8
+E(8,13) = [1011010110101] = (21221221)
+Distance = 8
+E(10,13) = [1011101110111] = (2112112111)
+It is a reverse Euclidean string.
+Distance = 8
+E(12,13) = [1011111111111] = (211111111111)
+It is a reverse Euclidean string.
+```
+
+
 ## Απαιτήσεις Αλγορίθμου
 
 Οι ρυθμοί μπορούν να κατασκευαστούν και με τη χρήση αλγόριθμου που κάνει διαδοχικές διαιρέσεις (ακολουθώντας περίπου τη λογική του αλγορίθμου του Ευκλείδη). Ο αλγόριθμος αυτός ονομάζεται αλγόριθμος του Björklund, από το όνομα του ερευνητή που παρατήρησε τα μοτίβα αυτά σε πειράματα με νετρόνια (Spallation Neutron Source).
